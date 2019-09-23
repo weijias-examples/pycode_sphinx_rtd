@@ -15,10 +15,15 @@ extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.viewcode',
               'sphinx.ext.doctest',
               ]
+
 4. change conf.py. uncomment the lines
+
 import os
+
 import sys
+
 sys.path.insert(0, os.path.abspath('../..'))
+
 
 change the path to ../.. if you use source and build directory.
 
