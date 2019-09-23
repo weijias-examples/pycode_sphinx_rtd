@@ -6,3 +6,4 @@ docs/source/pycode_sphinx_rtd.rst
 docs/source/setup.rst
 docs/source/utils.rst
 docs/source/modules.rst
+utils/*.rst
