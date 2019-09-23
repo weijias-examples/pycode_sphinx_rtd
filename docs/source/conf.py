@@ -27,8 +27,10 @@ author = 'Weijia Sun'
 # ones.
 extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.todo',
-              'sphinx.ext.viewcode',
               'sphinx.ext.doctest',
+              'sphinx.ext.intersphinx',
+              'sphinx.ext.autosummary',
+              'sphinx.ext.viewcode'
               ]
 
 # Add any paths that contain templates here, relative to this directory.
