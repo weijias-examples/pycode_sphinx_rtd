@@ -6,6 +6,9 @@
 Welcome to test's documentation!
 ================================
 
+A automated documentation via Sphinx.
+
+
 .. toctree::
    :maxdepth: 3
    :caption: Contents:
