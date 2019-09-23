@@ -18,11 +18,22 @@ extensions = ['sphinx.ext.autodoc',
 
 4. change conf.py. uncomment the lines
 
-import os
+`import os`
 
-import sys
+`import sys`
 
-sys.path.insert(0, os.path.abspath('../..'))
+`sys.path.insert(0, os.path.abspath('../..'))`
+
+Add the below line to avoid `contents.rst not found`
+
+`master_doc = 'index'`
+
+By default, Sphinx expects the master doc to be contents. 
+Read the Docs will set master doc to index instead (or whatever it is you have specified in your settings). 
+Try adding this to your conf.py:
+
+`master_doc = 'index'`
+
 
 
 change the path to ../.. if you use source and build directory.
@@ -35,4 +46,8 @@ change the path to ../.. if you use source and build directory.
 For detailed information of setting RTD, refer to [RTD](https://docs.readthedocs.io/en/latest/webhooks.html)
 
 
+# link the github with RTD
+see links for two ways.
+1. https://docs.readthedocs.io/en/stable/webhooks.html
+2. https://docs.readthedocs.io/en/stable/connected-accounts.html
 
