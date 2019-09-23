@@ -27,5 +27,7 @@ change the path to ../.. if you use source and build directory.
 6. `sphinx-build -b html source/ build/`
 7. if you add a new module, you need delete `source/module.rst` first and run commands above.
 
+For detailed information of setting RTD, refer to [RTD](https://docs.readthedocs.io/en/latest/webhooks.html)
+
 
 
